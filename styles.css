@@ -1,0 +1,27 @@
+body {
+  background-image: url("/assets/1.jpg");
+  margin-left: 1px;
+}
+
+h1 {
+  text-align: center;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 50px;
+  border: 35px solid rgb(226, 191, 168);
+  font-family: "Cursive", "Lucida Handwriting";
+}
+
+p {
+  background-color: #afaf8f;
+  border-radius: 40px;
+  font-size: 35px;
+  margin-bottom: 50px;
+  padding: 15px;
+  width: auto;
+  display: inline;
+}
+section {
+  margin-bottom: 30px;
+  padding: 15px 0;
+}
