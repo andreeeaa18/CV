@@ -1,13 +1,10 @@
 body {
-  background: repeating-linear-gradient(
-    225deg,
-    #eba9a9 0%,
-    #e9f19b 50%,
-    #a8f0ff 100%
-  );
+  background: url(./assets/bground.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-h1 {
+.index-one {
   text-align: center;
   margin-left: 1px;
   margin-right: 1px;
@@ -15,39 +12,34 @@ h1 {
   font-family: "Cursive", "Lucida Handwriting";
 }
 
-.paragraph-title-one {
-  background-color: #afaf8f;
-  border-radius: 40px;
-  font-size: 35px;
-  margin-bottom: 100px;
-  padding: 15px;
-  /* width: auto; */
-  display: inline;
+.t-now {
+  text-align: center;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 50px;
+  font-family: "Georgia", "serif";
 }
-.paragraph-one {
-  background-color: #ebebca;
-  border-radius: 20px;
-  font-size: 25px;
-  margin-bottom: 100px;
+
+.links {
+  display: flex;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
   padding: 10px;
-  width: 50%;
-  display: block;
+  border-radius: 15px;
+  background-color: rgb(225, 168, 233);
+  opacity: 60%;
 }
-.paragraph-title-two {
-  background-color: #afaf8f;
-  border-radius: 40px;
-  font-size: 35px;
-  margin-bottom: 100px;
-  padding: 15px;
-  /* width: auto; */
-  display: inline;
+
+summary {
+  cursor: pointer;
+  list-style-type: none;
 }
-.list-one {
-  background-color: #afaf8f;
-  border-radius: 40px;
-  font-size: 35px;
-  margin-bottom: 100px;
-  padding: 15px;
-  width: 60%;
-  display: block;
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 15px;
+  background-color: black;
 }
